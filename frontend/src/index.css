@@ -1,0 +1,41 @@
+/* Reset default styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Center content */
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Style for main heading */
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Style for file input */
+  input[type="file"] {
+    margin-top: 20px;
+  }
+  
+  /* Style for upload button */
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
